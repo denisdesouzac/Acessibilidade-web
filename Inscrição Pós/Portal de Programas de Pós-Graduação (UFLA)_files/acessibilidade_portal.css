@@ -1,0 +1,153 @@
+.contrast,
+.contrast nav,
+.contrast div,
+.contrast li,
+.contrast ol,
+.contrast header,
+.contrast footer,
+.contrast section,
+.contrast main,
+.contrast aside,
+.contrast article {
+    background: black !important;
+    color: white !important;
+}
+
+.contrast h1,
+.contrast h2,
+.contrast h3,
+.contrast h4,
+.contrast h5,
+.contrast h6,
+.contrast p,
+.contrast label,
+.contrast strong,
+.contrast em,
+.contrast cite,
+.contrast q,
+.contrast i,
+.contrast b,
+.contrast u,
+.contrast span {
+    color: white !important;
+}
+
+.contrast a{
+    color: yellow !important;
+}
+
+.contrast button,
+.contrast input[type=button],
+.contrast input[type=reset],
+.contrast input[type=submit] {
+    background: black !important;
+    color: yellow !important;
+    border: none !important;
+}
+
+.contrast img.on-contrast-force-gray {
+    filter: grayscale(100%) contrast(120%);
+}
+
+.contrast img.on-contrast-force-white {
+    filter: brightness(0) invert(1);
+}
+
+.contrast input[type=text],
+.contrast input[type=password],
+.contrast input[type=url],
+.contrast input[type=search],
+.contrast input[type=email],
+.contrast input[type=tel],
+.contrast input[type=date],
+.contrast input[type=month],
+.contrast input[type=week],
+.contrast input[type=datetime],
+.contrast input[type=datetime-local],
+.contrast textarea,
+.contrast input[type=number] {
+    background: black !important;
+    border: 1px solid white !important;
+    color: white !important;
+}
+
+ul.acessibility li {
+  display:inline;
+}
+
+.contrast tbody tr.linha_par, .contrast tbody tr.linha_impar {
+	background: black !important;
+}
+
+mark {
+    background-color: #cad2cc;
+    color: #195128;
+    padding: 0 2px 0 3px;
+}
+
+.acessibilidade_link a {
+	color: #FFFFFF;
+}
+
+.acessibilidade_link a:hover {
+	text-decoration: underline;
+}
+
+.acess_div_esquerda {
+	padding: 5px;
+	min-height: 24px;
+	min-height: 1.5em;
+	/*background-color: #2F3A60;*/
+
+	background: #404E82;
+    background-color: rgb(64, 78, 130);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+
+}
+
+.ul_div_esquerda {
+	float:left;
+	width: 372px;
+}
+
+.ul_div_direita {
+	float:right;
+	/*min-width: 30%;*/
+	width: 305px;
+	text-transform: uppercase;
+}
+
+#conteudo .apresentacaoAcess p {
+	font-family: "Verdana", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-size: 0.88rem;
+	line-height: 1.0rem;
+}
+
+#conteudo .textoAcess p {
+	font-family: "Verdana", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-size: 0.75rem;
+	line-height: 0.8rem;
+}
+
+.textoAcess ul {
+	list-style: square inside none;
+}
+
+.textoAcess h2 {
+	font-family: "Verdana", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-size: 0.88rem;
+}
+
+.textoAcess a {
+	color: #7D97FE;
+}
